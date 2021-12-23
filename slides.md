@@ -28,3 +28,13 @@ Then second dev is coming and he just have his own commit style.
 87cfb6f add foobar feature
 ```
 
+---
+
+# Notice what's wrong?
+
+- Inconsistent commit style hurt readability
+- Some commit don't have context, `fix bug`? What? Where?
+- No way to categorize/group commit by it's types
+- No way to quickly identify commit to Project Tracker (Jira?!)
+- Would be hard to make a changelog
+
