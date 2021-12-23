@@ -90,4 +90,11 @@ refactor(attendance): DEV-1730 remove unused overtime calculation
 - Easier to work with semver
 - Automated tool such as commitizen, commitlint & standard version
 
+---
+
+# References
+
+- https://www.conventionalcommits.org/en/v1.0.0/
+- http://commitizen.github.io/cz-cli/
+- https://commitlint.js.org/
 
