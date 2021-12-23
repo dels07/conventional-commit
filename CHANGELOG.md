@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](///compare/v1.1.0...v1.2.0) (2021-12-23)
+
+
+### Features
+
+* **benefit:** add benefits 68d4578
+
+
+### Bug Fixes
+
+* **benefit:** fix some wording e5b5ffd
+* **reference:** add reference links daf4e6f
+
 ## 1.1.0 (2021-12-23)
 
 
