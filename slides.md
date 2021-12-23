@@ -82,11 +82,12 @@ refactor(attendance): DEV-1730 remove unused overtime calculation
 
 ---
 
-# Benefit
+# Benefits
 
-- Enforced cross developer commit message consistency
+- Enforce cross developer commit message consistency
 - Encourage for atomic commit message
 - Ability to link commit with Project Tracker (JIRA?!)
 - Easier to work with semver
-- Automated tool such as commitizen, commit lint & standard version
+- Automated tool such as commitizen, commitlint & standard version
+
 
