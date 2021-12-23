@@ -98,3 +98,16 @@ refactor(attendance): DEV-1730 remove unused overtime calculation
 - http://commitizen.github.io/cz-cli/
 - https://commitlint.js.org/
 
+---
+
+# Easter Egg
+
+If you have physical calculator, do this calculation
+
+"From about **2000** developer about **270** developer are not handsome, how many were the handsome?"
+
+After you done with the calculation, reverse your calculator
+
+---
+
+![1730](1730.png)
