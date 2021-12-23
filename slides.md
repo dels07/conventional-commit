@@ -33,8 +33,9 @@ Then second dev is coming and he just have his own commit style.
 # Notice what's wrong?
 
 - Inconsistent commit style hurt readability
-- Some commit don't have context, `fix bug`? What? Where?
-- No way to categorize/group commit by it's types
-- No way to quickly identify commit to Project Tracker (Jira?!)
-- Would be hard to make a changelog
+- Some commits don't have context, `fix bug`? What? Where?
+- No way to categorize/group commits by it's types
+- No way to quickly identify commits to Project Tracker (Jira?!)
+- Would be hard to make an automated changelog
+
 
