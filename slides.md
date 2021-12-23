@@ -38,4 +38,45 @@ Then second dev is coming and he just have his own commit style.
 - No way to quickly identify commits to Project Tracker (Jira?!)
 - Would be hard to make an automated changelog
 
+---
+
+# Solution?
+
+Please welcome **conventional commits**
+
+## What?
+The Conventional Commits specification is a lightweight convention on top of commit messages. It provides an easy set of rules for creating an explicit commit history; which makes it easier to write automated tools on top of. This convention dovetails with SemVer, by describing the features, fixes, and breaking changes made in commit messages.
+
+---
+
+## Format
+```
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
+## Example
+```
+chore: add xls parser package
+feat(employee): add create personal info
+fix(BUG-91): fix attendance calculation of night shift employee
+refactor(attendance): DEV-1730 remove unused overtime calculation
+```
+
+---
+
+# Common type of commits
+
+- feat
+- fix
+- chore (adding package, app configuration)
+- ci (continous integration related)
+- build (build system, ex: npm, webpack, docker)
+- test
+- docs (README.md, CHANGELOG.md)
+- refactor
+- perf (code optimization)
 
