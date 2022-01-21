@@ -1,13 +1,14 @@
 ---
 theme: gaia
 _class: lead
-paginate: true
+paginate: false
 backgroundColor: #fff
 marp: true
 ---
 
 # Conventional Commits
 ### **git commit -m  "feat: consistent commit"**
+### #BukaJalan
 
 ---
 
@@ -82,6 +83,29 @@ refactor(attendance): DEV-1730 remove unused overtime calculation
 
 ---
 
+# How To Setup
+
+```shell
+# install commitizen as global util
+$ npm install commitizen -g
+
+# commitizen initilization
+$ commitizen init cz-conventional-changelog --save-dev --save-exact
+
+# or if you use yarn
+$ commitizen init cz-conventional-changelog --yarn --dev --exact
+
+# install commitlint
+$ npm install -g @commitlint/cli @commitlint/config-conventional
+$ echo "module.exports = {extends: ['@commitlint/config-conventional']}" > commitlint.config.js
+
+# use cz to commit
+$ git add .
+$ cz
+```
+
+---
+
 # Benefits
 
 - Enforce cross developer commit message consistency
@@ -108,6 +132,15 @@ If you have physical calculator, do this calculation
 
 After you done with the calculation, reverse your calculator
 
+#BikinBangga
+
 ---
 
 ![1730](1730.png)
+
+# Sharing Session Vote
+
+Pilih topik apa yang mau kita share
+
+## [tinyurl.com/next-topic](https://tinyurl.com/next-topic)
+
